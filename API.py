@@ -11,3 +11,5 @@ response_juego = requests.get(url_juego)
 json_categoria = response_juego.json()
 categoria = json_categoria['34330']['data']['genres']
 print(categoria)
+    
+#Hola
